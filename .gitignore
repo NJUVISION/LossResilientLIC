@@ -1,0 +1,6 @@
+.idea
+bin/
+rec_img/
+exp/geo_channel
+exp/gilbert_channel
+exp/uniform_channel

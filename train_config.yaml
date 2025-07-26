@@ -1,0 +1,42 @@
+seed: 1
+startepoch: 0
+metric: mse
+cuda: True
+learning_rate: 0.0001
+aux_learning_rate: 0.001
+clip_max_norm: 1 # raw 1
+#lmbda: 0.0018 # quality 1
+#lmbda: 0.0035 # quality 2
+lmbda: 0.0067 # 3
+lambda_min: 0.0010
+lambda_max: 0.0035
+
+
+model: LRLICWoProg
+
+progressiveness: False
+progressiveness_range: [0, 1.0]
+
+loss_packet: True
+#packet_method: gilbert
+
+
+# data options
+trainset: /workspace/shared/flicker
+batchsize: 8
+batchsize_test: 1
+patchsize: 256
+worker_num: 8
+epochs: 200
+save_path: ./allnop_model/checkpoint/test_release_q3.pth.tar
+best_save_path: ./allnop_model/test_release_q3_best.pth.tar
+checkpoint: False
+save: True
+
+N: 128
+M: 192
+
+
+
+
+

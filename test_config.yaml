@@ -1,0 +1,19 @@
+M: 192
+N: 128
+channel: ./exp/gilbert_channel/10/channel0.txt
+coder: default
+decode: true
+encode: true
+loss_packet: true
+max_packet_length: 900
+metric: mse
+model: LRLICWoProg
+output: ./bin/1.bin
+p_hyper: 1.0
+p_latent: 1.0
+progressiveness: False
+progressiveness_range:
+- 0
+- 1.0
+quality: 1
+show: false

@@ -1,0 +1,22 @@
+encode: True
+model: LRLICWProg
+
+metric: mse
+
+progressiveness: True
+progressiveness_range: [0, 1.0]
+p_latent: 1
+p_hyper: 1
+
+loss_packet: True
+channel: ./exp/gilbert_channel/0/channel0.txt
+
+coder: default
+N: 128
+M: 192
+quality: 3
+#max_packet_length: 4500
+max_packet_length: 900
+decode: True
+show: False
+
