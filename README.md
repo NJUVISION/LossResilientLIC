@@ -1,6 +1,6 @@
 # LossResilientLIC
 
-An implementation of "Towards Loss-Resilient Image Coding for Unstable Satellite Networks" (**AAAI 2025 Oral**).
+An implementation of "[Towards Loss-Resilient Image Coding for Unstable Satellite Networks](https://arxiv.org/abs/2501.11263)" (**AAAI 2025 Oral**).
 
 ------
 
@@ -15,10 +15,13 @@ Our method builds on the channel-wise progressive coding framework, incorporatin
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{sha2025towards,
+@inproceedings{sha2025towards,
   title={Towards Loss-Resilient Image Coding for Unstable Satellite Networks},
   author={Sha, Hongwei and Dong, Muchen and Luo, Quanyou and Lu, Ming and Chen, Hao and Ma, Zhan},
-  journal={arXiv preprint arXiv:2501.11263},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={12},
+  pages={12506--12514},
   year={2025}
 }
 ```
